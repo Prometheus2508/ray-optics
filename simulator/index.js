@@ -5786,10 +5786,14 @@ var canvasPainter = {
     document.getElementById('tool_sphericallens').dataset['n'] = getMsg('toolname_sphericallens');
     document.getElementById('tool_sphericallens').dataset['p'] = getMsg('refractiveindex');
 
-    //Blocker
+    //Blocker->Line
     document.getElementById('tool_blackline').value = getMsg('toolname_blackline');
     document.getElementById('tool_blackline').dataset['n'] = getMsg('toolname_blackline');
 
+    //Blocker->Circle
+    document.getElementById('tool_blackcircle').value = getMsg('toolname_blackcircle');
+    document.getElementById('tool_blackcircle').dataset['n'] = getMsg('toolname_blackcircle');
+	  
     //Ruler
     document.getElementById('tool_ruler').value = getMsg('toolname_ruler');
     document.getElementById('tool_ruler').dataset['n'] = getMsg('toolname_ruler');
