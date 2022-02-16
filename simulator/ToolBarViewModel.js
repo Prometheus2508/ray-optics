@@ -58,7 +58,7 @@ function ToolBarViewModel() {
         new ToolBarItem("Spherical Lens", "tool_sphericallens", "spherical_lens",
           ToolTypeEnum.RADIO)
       ]),
-      self.blockers = new ToolBarItem("Blockers", "tool_blockers_", , ToolTypeEnum.RADIOLIST, [
+      self.blockers = new ToolBarItem("Blockers", "tool_blockers_", 3, ToolTypeEnum.RADIOLIST, [
         new ToolBarItem("Blocker", "tool_blackline", "blocker",
           ToolTypeEnum.RADIO),
         new ToolBarItem("Blocker", "tool_blackcircle", "blocker",
